@@ -1,3 +1,20 @@
-h1, h2 {
+h1,
+h2 {
   font-family: Lato;
+}
+.expected-output-text {
+  color: white;
+  padding: 0.5em;
+  font-size: 1.4em;
+  margin: 0.6em 0;
+  border: 1px solid #ff0000b8;
+  background-color: #ff0000b8;
+}
+.expected-output-result {
+  font-size: 1.4em;
+  border: 1px solid #2b6cb0;
+  color: white;
+  background-color: #2b6cb0;
+  padding: 0.5em;
+  border-radius: 4px;
 }
