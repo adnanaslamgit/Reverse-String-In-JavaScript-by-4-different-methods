@@ -4,7 +4,7 @@ import "./style.css";
 const appDiv = document.getElementById("app");
 appDiv.innerHTML = Solution("coders have no life");
 
-// Reverse string with built-in functions : Method 1
+// Reverse a string with for Loop : Method 2
 function Solution(str) {
   let newString = "";
   let len = str.length;
@@ -15,7 +15,8 @@ function Solution(str) {
   return newString;
 }
 
-// Reverse a string with for Loop : Method 2
+// Reverse string with built-in functions : Method 1
+
 function Solution(str) {
   return str
     .split("")
